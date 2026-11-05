@@ -1,0 +1,8 @@
+export const mentorshipTopics = [
+  {slug: 'development', title: 'Development guidance', description: 'Work through a technical roadblock, review your approach, or plan your next application.', points: ['Code structure and debugging', 'Web and mobile foundations', 'Planning a practical project']},
+  {slug: 'data-ai', title: 'Data & AI guidance', description: 'Clarify an analysis question, discuss model evaluation, or get direction on a data project.', points: ['Python and data workflows', 'Choosing meaningful metrics', 'Explaining your findings']},
+  {slug: 'design', title: 'Design feedback', description: 'Bring a flow, wireframe or prototype and discuss how to make the experience clearer.', points: ['User journeys and usability', 'Interface and prototype feedback', 'Presenting design decisions']},
+  {slug: 'portfolio', title: 'Portfolio & project review', description: 'Turn your work into a clear story that shows your thinking and progress.', points: ['Choosing what to showcase', 'Project documentation', 'A focused improvement plan']},
+  {slug: 'learning-plan', title: 'Learning roadmap', description: 'Make sense of your options and identify a manageable next step for your current skill level.', points: ['Understanding your starting point', 'Setting realistic milestones', 'Choosing a practice project']},
+  {slug: 'career-direction', title: 'Career direction', description: 'Explore how your interests and skills connect to possible technology career paths.', points: ['Exploring roles and interests', 'Identifying skill gaps', 'Preparing questions for your next step']},
+] as const;
